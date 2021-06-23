@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/110500-support-daman20-deduper/?tab=comments#comment-1008542</Support>
   <Project>https://github.com/daman20/deduper</Project>
   <Overview>Deduper is a Python script bundled into a Docker container that automatically deletes any files with the same content, regardless of name. This is done based off of the SHA512 hash. </Overview>
   <Category>Backup: Tools: Status:Beta</Category>
