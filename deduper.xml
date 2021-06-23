@@ -1,1 +1,38 @@
-
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Deduper</Name>
+  <Repository>daman20/deduper</Repository>
+  <Registry>https://hub.docker.com/repository/docker/daman20/deduper</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/daman20/deduper</Project>
+  <Overview>Deduper is a Python script bundled into a Docker container that automatically deletes any files with the same content, regardless of name. This is done based off of the SHA512 hash. </Overview>
+  <Category>Backup: Tools: Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1624490970</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Deduper is a Python script bundled into a Docker container that automatically deletes any files with the same content, regardless of name. This is done based off of the SHA512 hash. </Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir/>
+      <ContainerDir>/scan</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Scan Directory" Target="/scan" Default="" Mode="rw" Description="This is where you put the directory that you would like to be scanned and deduped" Type="Path" Display="always" Required="true" Mask="false"/>
+</Container>
