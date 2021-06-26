@@ -13,7 +13,7 @@
   <Category>Backup:</Category>
   <WebUI>http://[IP]:[PORT:5800]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/daman20/ca-xmls/main/deduper.xml</TemplateURL>
-  <Icon>https://github.com/daman20/deduper/blob/862ca5765e6762e9499d1b35ed6c6f7d43496cb2/Deduper%20Logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/daman20/deduper/master/Deduper%20Logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
