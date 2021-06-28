@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1624709589</DateInstalled>
+  <DateInstalled>1624900914</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>Deduper is a Python script bundled into a Docker container that automatically deletes any files with the same content, regardless of name. This is done based off of the SHA512 hash.</Description>
@@ -38,7 +38,7 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/appdata/</HostDir>
+      <HostDir>/mnt/user/appdata/deduper</HostDir>
       <ContainerDir>/appdata</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -46,6 +46,6 @@
   <Environment/>
   <Labels/>
   <Config Name="Scan Directory" Target="/scan" Default="" Mode="rw" Description="The directory for the program to dedupe." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Media/</Config>
-  <Config Name="WebUI" Target="5800" Default="5800" Mode="tcp" Description="The port of the WEbUI" Type="Port" Display="always" Required="true" Mask="false">5800</Config>
-  <Config Name="Appdata" Target="/appdata" Default="/mnt/user/appdata/" Mode="rw" Description="For the apps app data (hashes.json)" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/</Config>
+  <Config Name="WebUI" Target="5800" Default="5800" Mode="tcp" Description="The port of the WebUI" Type="Port" Display="always" Required="true" Mask="false">5800</Config>
+  <Config Name="Appdata" Target="/appdata" Default="/mnt/user/appdata/deduper" Mode="rw" Description="For the apps app data (hashes.json)" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/deduper</Config>
 </Container>
