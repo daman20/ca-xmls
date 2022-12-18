@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>HTTrack</Name>
+  <Repository>suika/httrack-web</Repository>
+  <Registry>https://hub.docker.com/r/suika/httrack-web</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.httrack.com/</Project>
+  <Overview>HTTrack is a free and open-source Web crawler and offline browser, developed by Xavier Roche and licensed under the GNU General Public License Version 3. HTTrack allows users to download World Wide Web sites from the Internet to a local computer.</Overview>
+  <Category>Backup:</Category>
+  <WebUI>http://[IP]:[PORT:8081]/</WebUI>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams>--restart always</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1671404018</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="save dir" Target="/websites" Default="/mnt/user/websites" Mode="rw" Description="This is where your downloaded websites go" Type="Path" Display="always" Required="true" Mask="false"/>
+</Container>
